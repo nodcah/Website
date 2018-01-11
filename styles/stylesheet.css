@@ -1,0 +1,30 @@
+header {
+  height: 120px;
+  text-align: center;
+  color: white;
+}
+.fillh {
+  height: 100%;
+}
+.fillw {
+  width: 100%;
+}
+.centervh-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#working {
+  width: 100%;
+}
+
+/* Sticky footer */
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
+}
